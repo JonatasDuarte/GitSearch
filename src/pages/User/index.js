@@ -2,12 +2,22 @@ import React, { useState, useCallback } from "react";
 
 import { useParams } from "react-router-dom";
 
-import api from "../";
+import api from "../../services/api";
+
+import { Container } from "./styles"
+
+import {MdStar, MdCallSplit} from "react-icons"
 
 export default function User() {
   const { username } = useParams();
 
-  return <div>Hello {username}</div>;
+  const handleShowRepo = useCallback(
+
+
+
+  )
+
+  return;
 }
 
 // /users/:username/repos
