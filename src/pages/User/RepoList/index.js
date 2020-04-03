@@ -49,5 +49,3 @@ export default function RepoList({ repos }) {
     </Container>
   );
 }
-
-// https://www.figma.com/file/NgZP9BljIJdDXO1AoWokLJ/spotify-ui-mikberg
