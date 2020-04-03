@@ -7,7 +7,7 @@ export default function UserList({users}) {
 
   const handleShowUser = useCallback((username) => {
     history.push(`/user/${username}`);
-  }, []);
+  }, [history]);
 
   return (
     <Container>

@@ -38,7 +38,7 @@ export default function Home() {
 
       searchUser();
     },
-    [users]
+    []
   );
 
   return (

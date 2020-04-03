@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import { useParams } from 'react-router-dom';
 
@@ -20,7 +20,7 @@ export default function User() {
       setRepos(
         data.map(repo => ({
           name: repo.name,
-          url: repo.hmtl_url,
+          url: repo.html_url,
           des: repo.description,
           language: repo.language,
           star: repo.stargazers_count,
