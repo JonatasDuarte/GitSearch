@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react';
-import { Container, Repo, Name, Url, Des, Language, Star, Forks} from './styles';
+import { Container, Repo, Name, Des, Language, Star, Forks} from './styles';
 
 import { MdStar, MdCallSplit } from 'react-icons/md';
 
@@ -32,5 +32,3 @@ export default function RepoList({repos}){
     )
   
 }
-
-// "editor.tabSize": 2,
