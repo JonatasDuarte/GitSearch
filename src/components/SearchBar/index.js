@@ -11,9 +11,7 @@ export default function SearchBar({ placeholder, onSubmit }) {
     <Container
       onSubmit={e => {
         e.preventDefault();
-
         if (value === "") return;
-
         onSubmit(value);
         setValue("");
       }}
