@@ -1,30 +1,33 @@
 import styled from 'styled-components';
 
-export const Container = styled.ul`
-  height: 400px;
-  width: 450px;
-  overflow-y: auto;
+export const Container = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
 
+export const Wrapper = styled.ul`
+overflow-y: auto;
   & > li + li {
     margin-top: 8px;
   }
-`;
+  width: 100%;
+`
+;
 
 export const Repo = styled.li`
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 48px;
-  border-radius: 4px;
   cursor: pointer;
   user-select: none;
-  padding: 8px 16px;
+  padding: 32px 16px;
   :hover {
     background: #ddd;
   }
 `;
 
-export const Name = styled.strong`
+export const Name = styled.h1`
   color: #333;
 `;
 
@@ -39,17 +42,15 @@ export const Forks = styled.span`
   }
 `;
 
-export const Des = styled.small`
-  white-space: nowrap;
+export const Des = styled.p`
   overflow: hidden;
   text-overflow: ellipsis;
-
-  max-width: 320px;
-
+  max-width: 80%;
+  font-size: 16px;
   color: #666;
 `;
 
-export const Language = styled.small`
+export const Language = styled.h3`
   background: #999;
   color: white;
   border-radius: 2px;
