@@ -1,68 +1,24 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## GitSearch
 
-## Available Scripts
+Aplicação para listar repositórios e buscar usuários na API do GitHub.
 
-In the project directory, you can run:
+### Como contribuir?
 
-### `yarn start`
+- Forke o repositório para sua conta
+- Faça suas alterações
+- Peça um pull request!
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Lista de contribuidores
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<table style="width:100%">
 
-### `yarn test`
+  <tr>
+    <td style="width:50%" align="center"><a href="http://github.com/arthur-mts"><img src="https://avatars1.githubusercontent.com/u/29128672?s=460&u=35713cf65a1aa46523da85dafc78ac42dba8f5d4&v=4"auto" width="120" style="border-radius:50%"></a>
+<h3>Arthur Mauricio</h3></td>
+    <td style="width:50%"align="center"><a href="https://github.com/Anap123"><img src="https://avatars0.githubusercontent.com/u/44899007?s=460&u=deed2780c997a3ec3a16c022fea799af5b3ccca5&v=4" height="auto" width="120" style="border-radius:50%"></a>
+<h3>Ana Paula</h3></td>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<td style="width:50%"align="center"><a href="https://github.com/jarthursantos"><img src="https://avatars0.githubusercontent.com/u/54647381?s=400&u=04f5d2456d497e5433898c4a057f0094a6c9f7a7&v=4" height="auto" width="120" style="border-radius:50%"></a>
+<h3>Arthur Santos</h3></td>
+  </tr>
+</table>
